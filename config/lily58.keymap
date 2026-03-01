@@ -34,8 +34,8 @@
             bindings = <
 &kp F1     &kp F2       &kp F3          &kp F4          &kp F5           &kp F6                                     &kp F7     &kp F8           &kp F9           &kp F10          &kp F11          &kp F12
 &kp GRAVE  &none        &none           &kp UP_ARROW    &none            &none                                      &none      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS      &kp KP_MINUS
-&trans     &none        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none                                      &none      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MULTIPLY  &kp KP_DIVIDE
-&trans     &bt BT_SEL 0 &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_CLR          &kp PRINTSCREEN  &kp INSERT    &kp DELETE  &kp KP_N0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT       &trans
+&trans     &none        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &bt BT_CLR                                 &none      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MULTIPLY  &kp KP_DIVIDE
+&trans     &bt BT_SEL 0 &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3     &kp PRINTSCREEN  &kp INSERT    &kp DELETE  &kp KP_N0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT       &trans
                                         &trans          &trans           &trans           &trans        &trans      &trans     &trans           &trans
             >;
         };
